@@ -1,0 +1,14 @@
+{ "columns":20,
+ "image":"..\/..\/sprites\/enemy_structures_assets.png",
+ "imageheight":192,
+ "imagewidth":320,
+ "margin":0,
+ "name":"enemy_structures_assets",
+ "spacing":0,
+ "tilecount":240,
+ "tiledversion":"1.8.2",
+ "tileheight":16,
+ "tilewidth":16,
+ "type":"tileset",
+ "version":"1.8"
+}

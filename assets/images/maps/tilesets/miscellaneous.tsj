@@ -1,0 +1,14 @@
+{ "columns":10,
+ "image":"..\/..\/sprites\/miscellaneous.png",
+ "imageheight":192,
+ "imagewidth":160,
+ "margin":0,
+ "name":"miscellaneous",
+ "spacing":0,
+ "tilecount":120,
+ "tiledversion":"1.8.2",
+ "tileheight":16,
+ "tilewidth":16,
+ "type":"tileset",
+ "version":"1.8"
+}
