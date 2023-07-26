@@ -1,5 +1,5 @@
-import 'package:daedalus/menu.dart';
-import 'package:daedalus/utils/localizations.dart';
+import 'package:daedalus/daedalus_widgets/menu/menu_starter.dart';
+import 'package:daedalus/utils/localization/localizations.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:shared_preferences/shared_preferences.dart';

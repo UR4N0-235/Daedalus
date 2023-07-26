@@ -8,6 +8,11 @@
  "tilecount":120,
  "tiledversion":"1.8.2",
  "tileheight":16,
+ "tiles":[
+        {
+         "id":56,
+         "probability":1.00100004673004
+        }],
  "tilewidth":16,
  "type":"tileset",
  "version":"1.8"

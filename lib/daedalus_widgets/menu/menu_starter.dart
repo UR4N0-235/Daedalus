@@ -1,5 +1,6 @@
 import 'dart:async' as async;
 
+import 'package:daedalus/game_starter.dart';
 import 'package:daedalus/menu/settings_dialog.dart';
 import 'package:daedalus/utils/localizations.dart';
 import 'package:flutter/material.dart';
@@ -57,11 +58,11 @@ class _MenuState extends State<Menu> {
                         ),
                         child: Text(DaedalusLocalizations.of(context, "play")),
                         onPressed: () {
-                          // Navigator.push(
-                          //   context,
-
-                          //    MaterialPageRoute(builder: (context) => ),
-                          // );
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => const Starter()),
+                          );
                         },
                       ),
                       ElevatedButton(
@@ -70,9 +71,10 @@ class _MenuState extends State<Menu> {
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(10.0),
                           ),
-                          minimumSize: const Size(100, 40), //////// HERE
+                          minimumSize: const Size(100, 40),
                         ),
-                        child: Text(DaedalusLocalizations.of(context, "settings")),
+                        child:
+                            Text(DaedalusLocalizations.of(context, "settings")),
                         onPressed: () {
                           DialogCredits.show(context);
                         },

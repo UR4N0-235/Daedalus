@@ -46,6 +46,7 @@ class DialogCredits extends StatelessWidget {
                       await prefs.setString('language_code', 'en');
                       await prefs.setString('country_code', 'US');
 
+                      // ignore: use_build_context_synchronously
                       Daedalus.setLocale(context, const Locale("en", "US"));
                     },
                   ),
@@ -62,6 +63,7 @@ class DialogCredits extends StatelessWidget {
                         await prefs.setString('language_code', 'en');
                         await prefs.setString('country_code', 'US');
 
+                        // ignore: use_build_context_synchronously
                         Daedalus.setLocale(context, const Locale("pt", "BR"));
                       }),
                 ],
