@@ -1,6 +1,50 @@
 {
-    "maps": [
+     "maps": [
+        {
+            "fileName": "map_0_0.json",
+            "x": 0,
+            "y": 0
+        },
+        {
+            "fileName": "map_0_1.json",
+            "x": 800,
+            "y": 0
+        },
+                {
+            "fileName": "map_0_2.json",
+            "x": 1600,
+            "y": 0
+        },
+                {
+            "fileName": "map_1_0.json",
+            "x": 0,
+            "y": 800
+        },
+        {
+            "fileName": "map_1_1.json",
+            "x": 800,
+            "y": 800
+        },
+        {
+            "fileName": "map_1_2.json",
+            "x": 1600,
+            "y": 800
+        },
+                {
+            "fileName": "map_2_0.json",
+            "x": 0,
+            "y": 1600
+        },
+        {
+            "fileName": "map_2_1.json",
+            "x": 800,
+            "y": 1600
+        },
+        {
+            "fileName": "map_2_2.json",
+            "x": 1600,
+            "y": 1600
+        }
     ],
-    "onlyShowAdjacentMaps": false,
     "type": "world"
 }

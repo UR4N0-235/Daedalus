@@ -272,6 +272,10 @@
         {
          "id":131,
          "probability":0.0020000000949949
+        }, 
+        {
+         "id":137,
+         "probability":0.0020000000949949
         }],
  "tilewidth":16,
  "type":"tileset",
