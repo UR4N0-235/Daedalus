@@ -27,10 +27,11 @@ class GamePlayer extends SimplePlayer with ObjectCollision, UseBarLife{
     setupCollision(
       CollisionConfig(
           collisions: [
-            CollisionArea.rectangle(
-                size: Vector2(tileSize * 1.5,tileSize * 1.5),
-                align: Vector2(6,6)
-            ),
+            // CollisionArea.rectangle(
+            //     size: Vector2(tileSize * 1.0 ,tileSize * 1.0),
+            //     align: Vector2(0,0)
+            // ),
+            CollisionArea.circle(radius: 8)
         ]
       )
     );
