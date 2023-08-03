@@ -1,5 +1,7 @@
 import 'package:bonfire/bonfire.dart';
 import 'package:daedalus/const/const.dart';
+import 'package:daedalus/game_starter.dart';
+import 'package:daedalus/utils/muilti_mapper/world_mapper.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:daedalus/entities/alive/player/player_sprites.dart';
@@ -54,6 +56,16 @@ class GamePlayer extends SimplePlayer with ObjectCollision, UseBarLife{
       );
     }
     super.joystickAction(event);
+  }
+
+  @override
+  void update(double dt) {
+    Vector2 actual = gameRef.player!.position; 
+    if(actual.x > 799 || actual.x < 1 || actual.y > 799 || actual.y < 1){
+      playerStartPosition = DaedalusWorldMapper.getNewPosition(actual)!;
+      selectMap(DaedalusWorldMapper.changeMap(actual));
+    }
+    super.update(dt);
   }
 
   @override

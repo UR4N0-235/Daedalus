@@ -1,8 +1,8 @@
 import 'dart:async' as async;
 
 import 'package:daedalus/game_starter.dart';
-import 'package:daedalus/menu/settings_dialog.dart';
-import 'package:daedalus/utils/localizations.dart';
+import 'package:daedalus/daedalus_widgets/menu/settings_dialog.dart';
+import 'package:daedalus/utils/localization/localizations.dart';
 import 'package:flutter/material.dart';
 
 class Menu extends StatefulWidget {
@@ -29,8 +29,8 @@ class _MenuState extends State<Menu> {
       duration: const Duration(milliseconds: 300),
       child: buildMenu(),
     );
-  }
 
+  }
   Widget buildMenu() {
     return Scaffold(
       backgroundColor: Colors.black,
